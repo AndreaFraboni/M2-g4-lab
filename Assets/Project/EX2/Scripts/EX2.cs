@@ -33,8 +33,8 @@ public class EX2 : MonoBehaviour
         }
 
         //Output
-        Debug.Log("Somma di tutti i numeri" + sommadeinumeri);
-        Debug.Log("Moltiplicazione di tutti i numeri" + moltiplicazionedeinumeri);
+        Debug.Log("Somma di tutti i numeri = " + sommadeinumeri);
+        Debug.Log("Moltiplicazione di tutti i numeri = " + moltiplicazionedeinumeri);
     }
 
     // Update is called once per frame
