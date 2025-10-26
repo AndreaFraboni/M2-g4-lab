@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EX2 : MonoBehaviour
 {
-    private int[] arraynumeri = new int[4]; // inziazlizzo l'array di 4 numeri
+    [SerializeField] private int[] arraynumeri = new int[4]; // inziazlizzo l'array di 4 numeri
 
     int sommadeinumeri = 0;                 // inizializzo la sommanumeri a 0
-    int moltiplicazionedeinumeri = 1;       // inizializzo la moltiplicazionedeinumeri a 1 perchè se uso 0 avrei sempre 0 come risultato della moltiplicazione indipendentemente dai valori nell'array
+    int moltiplicazionedeinumeri = 1;       // inizializzo la moltiplicazionedeinumeri a 1 perchï¿½ se uso 0 avrei sempre 0 come risultato della moltiplicazione indipendentemente dai valori nell'array
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class EX2 : MonoBehaviour
             int elemento;
             elemento = arraynumeri[i];
 
-            Debug.Log("elemento letto dall'array = " + elemento);
+            Debug.Log("elemento letto dall'array = " + "["+i+"] = " + elemento);
 
             sommadeinumeri += elemento;
 

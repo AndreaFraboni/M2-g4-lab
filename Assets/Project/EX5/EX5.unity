@@ -363,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberToFind: 5
   arraySize: 20
-  numberOffset: 2
+  numberOffset: 1
 --- !u!4 &1803979522
 Transform:
   m_ObjectHideFlags: 0

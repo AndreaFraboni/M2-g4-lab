@@ -11,19 +11,21 @@ public class EX1_ter : MonoBehaviour
     {
         int n = 0;
 
-        while (n<10)
+        Debug.Log("mostro tabellina del : " + numxtab);
+
+        while (n < 10)
         {
             int valore = (n + 1) * numxtab;
             Debug.Log(valore);
 
             n++;
         }
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
