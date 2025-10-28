@@ -27,6 +27,7 @@ public class EX5 : MonoBehaviour
                 Debug.Log("Number Not Found !!!!");
             }
         }
+        Debug.Log("Iteractions Finished !!");
     }
 
     // Update is called once per frame
